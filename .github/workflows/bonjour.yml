@@ -8,5 +8,5 @@ jobs:
       - run: ls -l # Liste les fichier du répertoire courant
       - uses: actions/checkout@v4
         with:
-          repository: '.github/workflows'
+          path: '.github/workflows'
       - run: cat README.md # Affiche le contenu du fichier `README.md` à la base du dépôt
